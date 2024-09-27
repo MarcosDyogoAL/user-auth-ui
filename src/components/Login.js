@@ -52,9 +52,10 @@ const Login = () => {
                         required
                     />
                 </div>
+                <button onClick={() => navigate('/register')}>Register</button>
                 <button type="submit">Login</button>
             </form>
-            <button onClick={() => navigate('/register')}>Register</button>
+
         </div>
     );
 };
